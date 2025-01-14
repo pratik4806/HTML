@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            height: 1000px;
+        }
+
+        .box {
+            margin: 10px auto;
+            border: 1px solid black;
+            color: navy;
+            height: 20vh;
+            width: 50vw;
+            text-align: center;
+        }
+
+        .box1 {
+            background-color: red;
+            /* when the position is absolute, it will take the properties of the nearest parent element(here it is class parent) if the parent is set as absolute then the div element is adjusted according to the parent element.
+
+            if the parent element is not set as absolute then the div element is adjusted according to the body element if the body element is set as absolute then the div element is adjusted according to the browser window.
+
+            if the parent element is not set as absolute and the body element is not set as absolute then the div element is adjusted according to the browser window.
+            
+             */
+            position: absolute;
+            top: 10px;
+            left: 10px;
+
+            /* the position is set as sticky then the element will stick to the top of the browser window if its a navabar. */
+            /* position: sticky;
+            top: 0px; */
+        }
+
+        .box2 {
+            background-color: green;
+            /* by applying the relative property we can apply the top bottom left right properties along with z-index */
+            position: relative;
+            top: -60px;
+            left: 400px;
+        }
+
+        .box3 {
+            background-color: violet;
+            position: fixed;
+        }
+
+        .box4 {
+            background-color: blue;
+        }
+
+        .parent {
+            padding: 43px;
+            margin: 40px;
+            border: 2px solid purple;
+            /* position: fixed; */
+            top: 0px;
+            left: 200px;
+            right: 300px;
+            /* transform, fliter or perspective properties can also make element appear as positioned */
+
+            /* transform: translate(0); */
+            /* filter: invert(0); */
+            perspective: 0em;
+
+        }
+
+        /* Relative - Apni orginal position se change hogi
+        Absolute - apne nearest parent ke relative position change hogi if parent is there then parent, if not then body and if body is not there then browser window means html.
+        Fixed - page mein position fixed hojaygi
+        Sticky - page mein kahin bhi ho, scroll krne pr neeche nhi jaygi, stick hojaygi */
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <!-- bydefault all box positions are static, hence we cannot apply the top, bottom, left, right, z-index properties on that -->
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+        <div class="box box4">Box 4</div>
+    </div>
+</body>
+
+</html>

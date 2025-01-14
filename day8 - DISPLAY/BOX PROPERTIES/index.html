@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box properties</title>
+    <style>
+        .container{
+            background-color: #6fdd71;
+            border: 2px solid black;
+            /* padding: top right bottom left; same for margin as well */
+            padding: 20px 54px 12px 22px;
+            /* padding: top/bottom right/left; same for margin as well */
+            padding: 20px 70px;
+            margin: 24px;
+            width: 300px;
+            /* if we set the property as borderbox then the element will change the property as parent not the body element */
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is a heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident recusandae, consequuntur perferendis nostrum error quas deleniti expedita eveniet doloribus nesciunt. Voluptatibus, dolorem. Ipsa voluptatibus itaque qui? Fuga temporibus nostrum beatae quod eaque architecto similique minus repellat, ducimus dicta non perferendis vel nulla eum sapiente doloremque dolor illo inventore deleniti.</p>
+    </div>
+    <div class="container">
+        <h3>This is a heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident recusandae, consequuntur perferendis nostrum error quas deleniti expedita eveniet doloribus nesciunt. Voluptatibus, dolorem. Ipsa voluptatibus itaque qui? Fuga temporibus nostrum beatae quod eaque architecto similique minus repellat, ducimus dicta non perferendis vel nulla eum sapiente doloremque dolor illo inventore deleniti.</p>
+    </div>
+    <div class="container">
+        <h3>This is a heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident recusandae, consequuntur perferendis nostrum error quas deleniti expedita eveniet doloribus nesciunt. Voluptatibus, dolorem. Ipsa voluptatibus itaque qui? Fuga temporibus nostrum beatae quod eaque architecto similique minus repellat, ducimus dicta non perferendis vel nulla eum sapiente doloremque dolor illo inventore deleniti.</p>
+    </div>
+</body>
+</html>

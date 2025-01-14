@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .grid-container{
+           display: grid;
+           grid-template-columns:repeat(auto-fit, minmax(10em, 1fr));
+           grid-template-rows: 8em;
+           grid-gap: 1em;
+           background-color: rgb(86, 86, 244);
+           padding: 1em;
+        }
+        .item{
+           background-color: rgba(249, 34, 34, 0.8);
+           border: 1px solid black;
+           padding: 2em;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-size: 1.5em;
+           font-weight: 600;
+           text-transform: capitalize;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item">Card</div>
+        <div class="item">Card</div>
+        <div class="item">Card</div>
+        <div class="item">Card</div>
+        <div class="item">Card</div>
+        <div class="item">Card</div>
+        <div class="item">Card</div>
+        <div class="item">Card</div>
+        <div class="item">Card</div>
+        <div class="item">Card</div>
+        <div class="item">Card</div>
+    </div>
+</body>
+</html>
