@@ -1,0 +1,34 @@
+#container{
+    border: 5px solid rebeccapurple;
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: start;
+    justify-content: end;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+
+    align-items: center;
+    align-items: start;
+    align-items: end;
+
+    justify-content: start;
+    align-items: start;
+
+    justify-content: end;
+    align-items: end;
+}
+
+.card{
+    border: 5px solid green;
+    width: 150px;
+    height: 150px;
+
+}
+#personB{
+    /* margin-left: 50px;
+    margin-right: 50px; */
+}

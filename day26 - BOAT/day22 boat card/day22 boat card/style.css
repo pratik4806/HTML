@@ -1,0 +1,102 @@
+#box{
+    display: flex;
+    justify-content: space-between;
+}
+#left{
+    height: 1000px;
+    width: 500px;
+    background-color: aqua;
+    position: sticky;
+    top: 10px
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 20px;
+    width: 60%;
+  
+
+}
+
+
+.card{
+    height: 400px;
+    width: 90%;
+    border: 2px solid red;
+    margin: auto;
+    border-radius: 10px;
+
+    
+}
+.top{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    /* border: 1px solid green; */
+    border-radius: 10px;
+}
+#off{  
+    font-size: 13px;
+    width: 100px;
+    color: white;
+     background-color: black;
+     position: absolute;
+     top: 0px;
+     left: 2px;
+     padding: 3px 2px;
+     border-top-left-radius: 10px;
+
+}
+.prodimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+   
+}
+#ld{
+    font-size: 13px;
+    background-color: #fcc40b;
+    padding: 2px 3px;
+    position: absolute;
+    width: 98%;
+    bottom: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 95%;  
+    margin: auto;
+
+}
+#color{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid rgb(7, 7, 7); */
+    position: relative;
+
+}
+.qqq{
+
+    /* border: 1px solid red; */
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: none;
+    
+}
+#aa{
+    background-color: aqua;
+    position: absolute;
+    left: 5px;
+}
+#bb{
+     background-color: #fcc40b;
+     
+    }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display properties</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .box{
+            border: 2px solid rebeccapurple;
+            /* side by side */
+            
+
+            /* all these properties will not work if the display is inline. to make it work we have to set it as inline-block */
+            /* display: inline; */
+            /* padding: 45px;
+            margin: 45px;
+            width: 100px;
+            height: 200px; */
+
+            display: inline-block; 
+            padding: 45px;
+            margin: 45px;
+            width: 100px;
+            height: 200px;
+
+        }
+        .box1{
+            display: none;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        I am a box
+    </div>
+    <div class="box">
+       also a nice box
+    </div>
+    <span>I am a good</span>
+    <span>boy</span>
+</body>
+</html>

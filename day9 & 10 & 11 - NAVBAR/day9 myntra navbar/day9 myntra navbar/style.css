@@ -1,0 +1,45 @@
+#navbar{
+    border: 1px solid red;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logodiv{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 70px;
+}
+#logo{
+   width: 100%;
+   height: 100%;   
+}
+#linksdiv{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link{
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#searchdiv{
+    border: 1px solid black;
+    height: 50px;
+    width: 35%;
+
+}
+#iconsdiv{
+    border: 1px solid black;
+    height: 50px;
+    width: 15%;
+     
+}

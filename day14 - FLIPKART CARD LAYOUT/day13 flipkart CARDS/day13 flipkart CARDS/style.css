@@ -1,0 +1,47 @@
+#card{
+    width: 300px;
+    height: 550px;
+    /* border: 1px solid red; */
+    margin: auto;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+#imageDiv{
+    width: 90%;
+    height: 50%;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+#prodimg{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+  
+}
+#datadiv{
+    width: 90%;
+    height: 45%;
+    margin: auto;
+    /* border: 2px solid cyan; */
+
+}
+.ratingdiv{
+      
+    /* border: 1px solid red; */
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 10px;
+}
+#fasured{
+    width: 90px;
+}
+#hd{
+    border: 2px solid green;
+    width: 60px;
+    height: 20px;
+    padding: 8px 5px;
+
+}

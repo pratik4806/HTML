@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+}
+.navbar {
+  height: 60px;
+  background-color: #2873f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+#search-input {
+  height: 36px;
+  width: 522px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+.login {
+  height: 30px;
+  width: 123px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.login a {
+  text-decoration: none;
+  color: #2873f0;
+  font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+}
+span {
+  color: white;
+}
+select {
+  height: 40px;
+  width: 60px;
+  background-color: #2873f0;
+  border: none;
+  color: white;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 20px;
+}
+.items-container {
+  height: 350px;
+  width: 250px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.image-container {
+  width: 90%;
+  height: 50%;
+  margin: 15px auto;
+  text-align: center;
+}
+#product-image {
+  height: 100%;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #212121;
+}
+a:hover {
+  text-decoration: underline;
+  color: #2874f0;
+}
+.product-description {
+  line-height: 20px;
+  padding: 10px 20px;
+  font-weight: 400;
+  font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+}
+.product-rating {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-left: 20px;
+}
+#assured-image {
+  width: 70px;
+  height: 20px;
+}
+#btn-rating {
+  width: 40px;
+  height: 25px;
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+.price {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 230px;
+  height: 10px;
+  font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+}
+.price p {
+  font-size: 15px;
+}
+#discount {
+  text-decoration: line-through;
+}

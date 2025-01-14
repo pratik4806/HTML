@@ -1,0 +1,32 @@
+#salman {
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+}
+
+.box {
+    border: 3px solid black;
+    height: 250px;
+    width: 250px;
+    background-color: brown;
+    color: antiquewhite;
+}
+
+#rohan {
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-right: 200px;
+
+
+}
+
+#salman {
+    height: 250px;
+    width: 250px;
+
+    /* margin: 200px 100px 150px 200px; */
+
+    /* margin:  200px  400px; */
+    margin: 100px;
+}

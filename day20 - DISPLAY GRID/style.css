@@ -1,0 +1,16 @@
+.container{
+    width: 100%;
+    border: 3px solid red;
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: repeat(4, 0fr);
+    /* row-gap: 50px;
+    column-gap: 50px; */
+    gap: 100px;
+}
+.box{
+    border: 3px solid black;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}

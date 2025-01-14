@@ -1,0 +1,39 @@
+#abc{
+    border: 1px solid red;
+    width: 50%;
+    height: 20%;
+    margin:auto;
+    margin-top: 150px;
+    font-weight: 500px;
+}
+
+#parent{
+   border: 5px solid green;
+   width: 50%;
+   height: 400px;
+   margin:auto;
+   align-items: center;
+}
+
+#xyz{
+    border: 10px solid red;
+    width: 50%;
+    height: 20%;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 200px;
+    padding-right: 400px;
+}
+
+.container{
+    border: 2px solid red;
+    height: 300px;
+    display: flex;
+   
+}
+.box{
+    border: 2px solid greenyellow;
+    height: 300px;
+    width: 150px;
+}
+

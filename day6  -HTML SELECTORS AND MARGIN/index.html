@@ -1,0 +1,67 @@
+<!--
+selectors in html
+1. id selector (#) - used to target partular element. 
+2. class selector (.ClasssName) - used to target particular group.
+3. tag selector (.tagName) - it target particular community.
+4. universal (*)
+-->
+
+<!--
+we can give same id to the different elemnets but that is  ethically wrong practice. we can still see the result but while working with javascript we get to see the errors. 
+ -->
+
+<!-- 
+ priorities
+ inline CSS > id > class > tag
+  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML selectors</title>
+    <style>
+        #rahul {
+            color: rgb(214, 129, 17);
+        }
+
+        .nov {
+            font-size: 40px;
+           color: rgb(213, 19, 106);
+            border-radius: 10px;
+            padding: 10px;
+        }
+        p{
+            background-color: blueviolet;
+            font-size: 40px;
+            border-radius: 30px;
+            padding: 10px;
+        }
+        *{
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="rahul" class="nov">this is my h1 tag with id and classname</h1>
+    <!-- ethically wrong practice -->
+    <h1 style="color: cornflowerblue;" id="rahul">this is my h1 1 tag</h1>
+    <h1 class="nov">this is my h1 2 tag</h1>
+    <h1 id="rahul">this is my h1 3 tag</h1>
+    <h1 class="nov">this is my h1 4 tag</h1>
+    <!-- we can user tags as uppercase and lowercase also. they are not case sensitive -->
+    <A class="nov" href="https://www.google.com/" target="_blank"> google</A>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint illo minus doloribus dolore!
+        Inventore, ex amet dolores distinctio quam omnis quasi fugit ut quos possimus perferendis ea non eveniet
+        corporis debitis consequuntur enim, expedita doloribus temporibus quod itaque. Libero dicta quibusdam ratione
+        sapiente quod a quia, minima laudantium laboriosam alias culpa eaque qui corporis pariatur labore vel tempora
+        debitis impedit. Iusto similique eveniet sint deserunt maxime! Eligendi, reprehenderit commodi! Alias odit
+        nostrum vero incidunt vitae quidem cumque, illum quam ratione eaque corrupti amet a perspiciatis maiores
+        eligendi saepe provident magnam harum at totam odio voluptatem temporibus. Quia voluptas laudantium similique?
+    </p>
+
+</body>
+
+</html>
