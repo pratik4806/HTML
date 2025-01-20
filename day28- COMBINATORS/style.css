@@ -1,0 +1,57 @@
+/* child combinators */
+#box > h1 {
+  background-color: red;
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#box > h2 {
+  background-color: green;
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#box > h3 {
+  background-color: palevioletred;
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+div > h2 {
+  background-color: rgb(86, 86, 232);
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* descendent */
+#box h1 {
+  background-color: rgb(14, 214, 232);
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.card img {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+.card h1 {
+  border: 5px dotted red;
+  color: violet;
+}
